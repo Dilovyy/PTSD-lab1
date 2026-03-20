@@ -1,0 +1,10 @@
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbApplication\bin\Debug\DumbApplication.exe.config
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbApplication\bin\Debug\DumbApplication.exe
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbApplication\bin\Debug\DumbApplication.pdb
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbApplication\obj\Debug\DumbApplication.csproj.AssemblyReference.cache
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbApplication\obj\Debug\DumbApplication.Form1.resources
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbApplication\obj\Debug\DumbApplication.Properties.Resources.resources
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbApplication\obj\Debug\DumbApplication.csproj.GenerateResource.cache
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbApplication\obj\Debug\DumbApplication.csproj.CoreCompileInputs.cache
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbApplication\obj\Debug\DumbApplication.exe
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbApplication\obj\Debug\DumbApplication.pdb
