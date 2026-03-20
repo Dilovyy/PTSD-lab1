@@ -36,7 +36,14 @@ using DumbCore;
        [TestMethod]
        public void Test()
        {
-        var result = TextOperations.Concat("A", "B");
-        Assert.AreEqual("AB", result);
+           var result = TextOperations.Concat("A", "B");
+           Assert.AreEqual("AB", result);
        }
+
+       [TestMethod]
+       public void Empty()
+       {
+           Assert.AreEqual(0, TextOperations.GetLength(""));
+        }
+
 }
