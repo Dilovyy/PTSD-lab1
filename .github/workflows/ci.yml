@@ -17,10 +17,10 @@ jobs:
         dotnet-version: '8.0.x'
 
     - name: Restore
-      run: dotnet restore
+      run: dotnet restore DumbApplication/DumbApplication.sln
 
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build DumbApplication/DumbApplication.sln --no-restore
 
     - name: Test
-      run: dotnet test --no-build
+      run: dotnet test DumbApplication/DumbApplication.sln --no-build --verbosity normal
