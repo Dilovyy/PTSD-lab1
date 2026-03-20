@@ -1,0 +1,9 @@
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\Core\obj\Debug\Core.csproj.AssemblyReference.cache
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\Core\obj\Debug\Core.csproj.GenerateResource.cache
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\Core\bin\Debug\DumbCore.dll.config
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\Core\bin\Debug\DumbCore.dll
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\Core\bin\Debug\DumbCore.pdb
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\Core\obj\Debug\DumbCore.Properties.Resources.resources
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\Core\obj\Debug\DumbCore.dll
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\Core\obj\Debug\DumbCore.pdb

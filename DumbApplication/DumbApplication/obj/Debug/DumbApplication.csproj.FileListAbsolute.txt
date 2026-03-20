@@ -6,5 +6,9 @@ C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbApplication\obj\Debug\DumbAppli
 C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbApplication\obj\Debug\DumbApplication.Properties.Resources.resources
 C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbApplication\obj\Debug\DumbApplication.csproj.GenerateResource.cache
 C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbApplication\obj\Debug\DumbApplication.csproj.CoreCompileInputs.cache
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbApplication\obj\Debug\DumbApplication.csproj.CopyComplete
 C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbApplication\obj\Debug\DumbApplication.exe
 C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbApplication\obj\Debug\DumbApplication.pdb
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbApplication\bin\Debug\DumbCore.dll
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbApplication\bin\Debug\DumbCore.pdb
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbApplication\bin\Debug\DumbCore.dll.config

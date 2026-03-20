@@ -1,0 +1,12 @@
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbCore\bin\Debug\net8.0\DumbCore.deps.json
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbCore\bin\Debug\net8.0\DumbCore.dll
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbCore\bin\Debug\net8.0\DumbCore.pdb
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbCore\obj\Debug\net8.0\DumbCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbCore\obj\Debug\net8.0\DumbCore.AssemblyInfoInputs.cache
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbCore\obj\Debug\net8.0\DumbCore.AssemblyInfo.cs
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbCore\obj\Debug\net8.0\DumbCore.csproj.CoreCompileInputs.cache
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbCore\obj\Debug\net8.0\DumbCore.sourcelink.json
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbCore\obj\Debug\net8.0\DumbCore.dll
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbCore\obj\Debug\net8.0\refint\DumbCore.dll
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbCore\obj\Debug\net8.0\DumbCore.pdb
+C:\Users\Mykola\uchebka\PTSD\DumbApplication\DumbCore\obj\Debug\net8.0\ref\DumbCore.dll
