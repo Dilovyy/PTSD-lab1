@@ -1,6 +1,8 @@
 name: .NET CI
 
 on:
+  push:
+    branches: [ main ]
   pull_request:
     branches: [ main ]
 
@@ -24,3 +26,40 @@ jobs:
 
     - name: Test
       run: dotnet test DumbApplication/DumbApplication.sln --no-build --verbosity normal
+
+
+  docker-build:
+    runs-on: ubuntu-latest
+    needs: build
+
+    permissions:
+      packages: write
+      contents: read
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Login to GHCR
+      run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+    - name: Build Docker image
+      run: docker build -t ghcr.io/dilovyy/ptsd-lab1/app:latest .
+
+    - name: Push Docker image
+      run: docker push ghcr.io/dilovyy/ptsd-lab1/app:latest
+
+  docker-test:
+    runs-on: ubuntu-latest
+    needs: docker-build
+    permissions:
+      packages: read
+
+    steps:
+    - name: Login to GHCR
+      run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+    - name: Pull image
+      run: docker pull ghcr.io/dilovyy/ptsd-lab1/app:latest
+
+    - name: Run container
+      run: docker run ghcr.io/dilovyy/ptsd-lab1/app:latest
