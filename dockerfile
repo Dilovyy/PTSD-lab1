@@ -1,4 +1,4 @@
-FROM ://mcr.microsoft.com AS build
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 COPY ["DumbApplication/DumbApplication.csproj",  "DumbApplication/"]
 RUN dotnet restore "DumbApplication/DumbApplication.csproj"
@@ -19,7 +19,7 @@ FROM build AS publish
 RUN dotnet publish "DumbApplication/DumbApplication.csproj" -c Release -o /app/publish --no-build
 
 # Use the ASP.NET Core runtime image as the final stage
-FROM ://mcr.microsoft.com AS final
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "DumbApplication.dll"]
