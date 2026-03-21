@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 COPY ["DumbApplication/DumbApplication/DumbApplication.csproj",  "DumbApplication/DumbApplication/"]
-COPY ["DumbApplication/DumbCore/Core.csproj",             "DumbApplication/Core/"]
+COPY ["DumbApplication/Core/Core.csproj",             "DumbApplication/Core/"]
 COPY ["DumbApplication/TestProject/TestProject.csproj",       "DumbApplication/TestProject/"]
 
 RUN dotnet restore "DumbApplication/DumbApplication/DumbApplication.csproj"
