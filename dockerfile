@@ -1,32 +1,12 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
-COPY ["DumbApplication/DumbApplication/DumbApplication.csproj",  "DumbApplication/DumbApplication/"]
-COPY ["DumbApplication/Core/Core.csproj",             "DumbApplication/Core/"]
-COPY ["DumbApplication/TestProject/TestProject.csproj",       "DumbApplication/TestProject/"]
 
-RUN dotnet restore "DumbApplication/DumbApplication/DumbApplication.csproj"
+COPY ["DumbApplication/TestProject/TestProject.csproj", "DumbApplication/TestProject/"]
+RUN dotnet restore "DumbApplication/TestProject/TestProject.csproj"
 
-COPY DumbApplication/ ./
-WORKDIR ./DumbApplication
-RUN dotnet build "DumbApplication/DumbApplication.csproj" -c Release -o /app/build
+COPY DumbApplication/ ./DumbApplication/
 
-# Use the build stage to run tests
 FROM build AS test
-#WORKDIR /src/tests
-# Assuming you have a test project named MyDockerApp.Tests.csproj in a 'tests' folder
-#COPY ["TestProject/TestProject.csproj", "tests/"]
-#COPY . .
-RUN dotnet test "TestProject/TestProject.csproj"
-
-# Use a smaller runtime image for the final publish stage
-FROM build AS publish
-RUN dotnet publish "DumbApplication/DumbApplication.csproj" -c Release -o /app/publish --no-build
-
-# Use the ASP.NET Core runtime image as the final stage
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS final
-WORKDIR /app
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "DumbApplication.dll"]
-
-
-
+RUN dotnet test "DumbApplication/TestProject/TestProject.csproj" \
+    --verbosity normal \
+    --results-directory /app/TestResults
