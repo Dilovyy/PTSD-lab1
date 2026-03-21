@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mykola\\uchebka\\PTSD\\DumbApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF62353B-B959-4296-BED0-78832EB60A28}|TestProject\\TestProject.csproj|c:\\users\\mykola\\uchebka\\ptsd\\dumbapplication\\testproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF62353B-B959-4296-BED0-78832EB60A28}|TestProject\\TestProject.csproj|solutionrelative:testproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF62353B-B959-4296-BED0-78832EB60A28}|TestProject\\TestProject.csproj|c:\\users\\mykola\\uchebka\\ptsd\\dumbapplication\\testproject\\testproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{DF62353B-B959-4296-BED0-78832EB60A28}|TestProject\\TestProject.csproj|solutionrelative:testproject\\testproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA9F0A8-B998-4285-9194-40A35443FDAF}|Core\\Core.csproj|C:\\Users\\Mykola\\uchebka\\PTSD\\DumbApplication\\core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA9F0A8-B998-4285-9194-40A35443FDAF}|Core\\Core.csproj|solutionrelative:core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45945CB3-E678-47E9-8F5E-899F1F3551B1}|DumbApplication\\DumbApplication.csproj|c:\\users\\mykola\\uchebka\\ptsd\\dumbapplication\\dumbapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45945CB3-E678-47E9-8F5E-899F1F3551B1}|DumbApplication\\DumbApplication.csproj|solutionrelative:dumbapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45945CB3-E678-47E9-8F5E-899F1F3551B1}|DumbApplication\\DumbApplication.csproj|c:\\users\\mykola\\uchebka\\ptsd\\dumbapplication\\dumbapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45945CB3-E678-47E9-8F5E-899F1F3551B1}|DumbApplication\\DumbApplication.csproj|solutionrelative:dumbapplication\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Core||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|DumbApplication||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45945CB3-E678-47E9-8F5E-899F1F3551B1}|DumbApplication\\DumbApplication.csproj|C:\\Users\\Mykola\\uchebka\\PTSD\\DumbApplication\\dumbapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45945CB3-E678-47E9-8F5E-899F1F3551B1}|DumbApplication\\DumbApplication.csproj|solutionrelative:dumbapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA9F0A8-B998-4285-9194-40A35443FDAF}|Core\\Core.csproj|c:\\users\\mykola\\uchebka\\ptsd\\dumbapplication\\core\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45945CB3-E678-47E9-8F5E-899F1F3551B1}|DumbApplication\\DumbApplication.csproj|c:\\users\\mykola\\uchebka\\ptsd\\dumbapplication\\dumbapplication\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Mykola\\uchebka\\PTSD\\DumbApplication\\TestProject\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestProject\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Mykola\\uchebka\\PTSD\\DumbApplication\\TestProject\\UnitTest1.cs",
+              "RelativeToolTip": "TestProject\\UnitTest1.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:59:34.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Mykola\\uchebka\\PTSD\\DumbApplication\\DumbApplication\\Form1.cs",
+              "RelativeDocumentMoniker": "DumbApplication\\Form1.cs",
+              "ToolTip": "C:\\Users\\Mykola\\uchebka\\PTSD\\DumbApplication\\DumbApplication\\Form1.cs",
+              "RelativeToolTip": "DumbApplication\\Form1.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:57:37.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Mykola\\uchebka\\PTSD\\DumbApplication\\DumbApplication\\Form1.cs",
+              "RelativeDocumentMoniker": "DumbApplication\\Form1.cs",
+              "ToolTip": "C:\\Users\\Mykola\\uchebka\\PTSD\\DumbApplication\\DumbApplication\\Form1.cs [Design]",
+              "RelativeToolTip": "DumbApplication\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T10:51:38.028Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mykola\\uchebka\\PTSD\\DumbApplication\\Core\\Program.cs",
+              "RelativeDocumentMoniker": "Core\\Program.cs",
+              "ToolTip": "C:\\Users\\Mykola\\uchebka\\PTSD\\DumbApplication\\Core\\Program.cs",
+              "RelativeToolTip": "Core\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T09:21:53.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestProject",
+              "DocumentMoniker": "C:\\Users\\Mykola\\uchebka\\PTSD\\DumbApplication\\TestProject\\TestProject.csproj",
+              "RelativeDocumentMoniker": "TestProject\\TestProject.csproj",
+              "ToolTip": "C:\\Users\\Mykola\\uchebka\\PTSD\\DumbApplication\\TestProject\\TestProject.csproj",
+              "RelativeToolTip": "TestProject\\TestProject.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-21T07:50:19.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Core",
+              "DocumentMoniker": "C:\\Users\\Mykola\\uchebka\\PTSD\\DumbApplication\\Core\\Core.csproj",
+              "RelativeDocumentMoniker": "Core\\Core.csproj",
+              "ToolTip": "C:\\Users\\Mykola\\uchebka\\PTSD\\DumbApplication\\Core\\Core.csproj",
+              "RelativeToolTip": "Core\\Core.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-21T07:49:00.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DumbApplication",
+              "DocumentMoniker": "C:\\Users\\Mykola\\uchebka\\PTSD\\DumbApplication\\DumbApplication\\DumbApplication.csproj",
+              "RelativeDocumentMoniker": "DumbApplication\\DumbApplication.csproj",
+              "ToolTip": "C:\\Users\\Mykola\\uchebka\\PTSD\\DumbApplication\\DumbApplication\\DumbApplication.csproj",
+              "RelativeToolTip": "DumbApplication\\DumbApplication.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-21T07:35:02.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mykola\\uchebka\\PTSD\\DumbApplication\\DumbApplication\\Program.cs",
+              "RelativeDocumentMoniker": "DumbApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\Mykola\\uchebka\\PTSD\\DumbApplication\\DumbApplication\\Program.cs",
+              "RelativeToolTip": "DumbApplication\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T07:34:51.948Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
