@@ -3,6 +3,4 @@ WORKDIR /app
 
 COPY DumbApplication/ ./
 
-RUN msbuild DumbApplication/DumbApplication.sln /p:Configuration=Release
-
-RUN vstest.console.exe DumbApplication\TestProject\bin\Release\TestProject.dll
+RUN dotnet test DumbApplication/TestProject/TestProject.csproj --verbosity normal
