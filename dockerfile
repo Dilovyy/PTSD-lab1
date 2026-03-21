@@ -1,9 +1,13 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
-#COPY ["DumbApplication/DumbApplication/DumbApplication.csproj",  "DumbApplication/"]
-COPY DumbApplication/ ./
-RUN dotnet restore "DumbApplication/DumbApplication.csproj"
+COPY ["DumbApplication/DumbApplication/DumbApplication.csproj",  "DumbApplication/DumbApplication/"]
+COPY ["DumbApplication/DumbCore/DumbCore.csproj",             "DumbApplication/DumbCore/"]
+COPY ["DumbApplication/TestProject/TestProject.csproj",       "DumbApplication/TestProject/"]
 
+RUN dotnet restore "DumbApplication/DumbApplication/DumbApplication.csproj"
+
+COPY DumbApplication/ ./
+WORKDIR ./DumbApplication
 RUN dotnet build "DumbApplication/DumbApplication.csproj" -c Release -o /app/build
 
 # Use the build stage to run tests
