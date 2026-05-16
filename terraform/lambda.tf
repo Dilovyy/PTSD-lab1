@@ -62,7 +62,7 @@ resource "aws_lambda_function" "s3_copy" {
     variables = {
       DEST_BUCKET         = var.s3_finish_bucket
       LOCALSTACK_ENDPOINT = "http://localhost.localstack.cloud:4566"
-      OPENSEARCH_ENDPOINT = "http://localhost.localstack.cloud:4566"
+      OPENSEARCH_ENDPOINT = "http://file-copy-logs.us-east-1.opensearch.localhost.localstack.cloud:4566"
     }
   }
 
